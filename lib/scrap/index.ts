@@ -56,7 +56,7 @@ export async function scrapAmazonProduct(url: string){
             priceHistory: [],
             discountRate: Number(discountRate),
             category: 'default',
-            reviews: 10000,
+            reviewsCount: 10000,
             stars: 4.3,
             isOutOfStock: outOfStock,
             description,
